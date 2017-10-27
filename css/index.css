@@ -1,0 +1,62 @@
+body,div{
+	margin: 0;
+	padding: 0;
+}
+.outside{
+	height:auto;
+	background:#333366;
+}
+.logo{
+	height:150px;
+}
+.logoimg{
+	height:150px;
+}
+.menu-list{
+	height:50px;
+}
+.menu-list ul{
+	margin-top:0px;
+	height:50px;
+	float:left;
+	background:#333366;
+}
+.menu-list ul li{
+	list-style:none;
+	display:block;
+	width:200px;
+	float:left;
+	margin:auto;
+	background:#333366;
+	line-height: 50px;
+}
+.menu-list ul li a{
+	color: #fff;
+	text-decoration:none;
+	display:block;
+	width:200px;
+	height:50px;
+	text-align: center;	
+}
+.menu-list ul li a:hover{
+	background:orangered;
+	color:#000;
+}
+.user-login{
+	height: 50px;
+	float:left;
+	line-height:50px;
+}
+.user-login a{
+	text-decoration:none;
+	color:#fff;
+	text-align:center;
+}
+.contain{
+	height:800px;
+	background:#ccc;
+}
+.astronomyimg{
+	background:steelblue;
+	float:left;
+}
