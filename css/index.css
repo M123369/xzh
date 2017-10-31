@@ -1,4 +1,4 @@
-body,div{
+body,div,span,a{
 	margin: 0;
 	padding: 0;
 }
@@ -55,8 +55,19 @@ body,div{
 .contain{
 	height:800px;
 	background:#ccc;
+	position: relative;
 }
 .astronomyimg{
 	background:steelblue;
 	float:left;
+	position: absolute;
+	overflow: hidden;
+	
+}
+.astronomyname{
+	display:block;
+	opacity:0;
+	text-align: center;
+	background:#FFFFFF;
+	position: relative;
 }
