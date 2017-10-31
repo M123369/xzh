@@ -53,7 +53,6 @@ body,div,span,a{
 	text-align:center;
 }
 .contain{
-	height:800px;
 	background:#ccc;
 	position: relative;
 }
@@ -62,7 +61,6 @@ body,div,span,a{
 	float:left;
 	position: absolute;
 	overflow: hidden;
-	
 }
 .astronomyname{
 	display:block;
@@ -70,4 +68,5 @@ body,div,span,a{
 	text-align: center;
 	background:#FFFFFF;
 	position: relative;
+	float:left;
 }

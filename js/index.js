@@ -13,18 +13,23 @@ window.onload=function(){
 	menu.style.marginLeft=www*0.005+'px';
 	var contain=document.getElementById('contain');
 	contain.style.width=e;
+	contain.style.height=2*www*0.2+'px';
 	contain.style.marginLeft=www*0.005+'px';
 	var astronomyimg=document.getElementsByClassName('astronomyimg');
 	var s=0;
+	var d=0;
 	for(var i=0;i<astronomyimg.length;i++){
 		astronomyimg[i].style.width=www*0.19+'px';
 		astronomyimg[i].style.height=www*0.19+'px';
 		astronomyimg[i].style.marginLeft=i*www*0.2+'px';
-		if(i%5==0){
-			s++;
-			astronomyimg[i].marginTop=s*www*0.2+'px';
-			alert(astronomyimg[i].marginTop);
-			astronomyimg[i].style.marginLeft=i*www*0.2+'px';
+		if(i>4){
+			if(i%5==0){
+				s++;
+				d=0;
+			}
+			astronomyimg[i].style.marginTop=s*www*0.2+'px';
+			astronomyimg[i].style.marginLeft=d*www*0.2+'px';
+			d++;	
 		}
 	}
 	var astronomyname=document.getElementsByClassName('astronomyname');
@@ -41,8 +46,6 @@ window.onload=function(){
 			return function(){
 				astronomyname[x].style.opacity=0;
 			};
-		}(j);
-		
-			
+		}(j);	
 	}
 }
